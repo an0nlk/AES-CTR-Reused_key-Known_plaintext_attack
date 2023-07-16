@@ -6,4 +6,4 @@ Author: Kalana Sankalpa (Anon LK).<br />
 Change the known_plaintext, known_ciphertext and the ciphertext that needs to decrypt.
 Change the padding value if necessary
 
-![alt test](screenshots/usage.png)
+![alt test](usage.png)
