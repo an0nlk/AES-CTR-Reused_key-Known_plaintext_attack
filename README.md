@@ -1,5 +1,5 @@
-# AES-CTR-Reused_key-Known_plaintext_attack
-This program is to decrypt  AES-CTR that reused key with a known plain text and cipher text pair<br />
+# AES-CTR - Reused key - Known Plaintext Attack
+This program is to decrypt AES-CTR that reused key with a known plain text and cipher text pair<br />
 Author: Kalana Sankalpa (Anon LK).<br />
 
 ## How to run 
