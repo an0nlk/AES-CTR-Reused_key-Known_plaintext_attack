@@ -2,7 +2,7 @@ from pwn import xor
 from Crypto.Util.Padding import pad
 
 
-def decrypt_aes_ctr(ciphertext, keystream):
+def decrypt(ciphertext, keystream):
     return xor(ciphertext, keystream)
 
 def main():
@@ -19,7 +19,7 @@ def main():
     # Recover the keystream by XORing the known plaintext with the corresponding ciphertext
     keystream = xor(known_ciphertext, known_plaintext)
     # Use the recovered keystream to decrypt the encrypted text
-    decrypted_cipher = decrypt_aes_ctr(ciphertext, keystream)
+    decrypted_cipher = decrypt(ciphertext, keystream)
 
     print(f"{decrypted_cipher=}")
 
